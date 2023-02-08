@@ -1,0 +1,47 @@
+/* Set color variables for the whole page */
+:root {
+  --dark-blue: #003580;
+  --light-blue: #0071c2;
+  --lighter-blue: #4444ff;
+  --yellow: #febb02;
+}
+
+.navbar {
+  background-color: var(--dark-blue);
+  width: 100%;
+}
+
+.navbar-top {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  max-width: 992px;
+  margin-bottom: 2rem;
+}
+
+.navbar-brand {
+  text-decoration: none;
+  color: white;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+  padding-left: 1rem;
+}
+
+.navbar-btns {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-btn {
+  color: var(--light-blue);
+  margin-right: 1rem;
+  padding: 0.25rem 0.5rem;
+  cursor: pointer;
+  border: 0;
+}
+
+.navbar-btn:hover {
+  background-color: var(--lighter-blue);
+  color: white;
+}

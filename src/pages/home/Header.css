@@ -1,0 +1,73 @@
+.header-container {
+  width: 100%;
+  background-color: var(--dark-blue);
+  color: white;
+}
+
+.header {
+  max-width: 992px;
+  margin: auto;
+  padding: 1rem 1rem 0;
+}
+
+.header h1,
+.header p {
+  margin-bottom: 1rem;
+}
+
+.header-form {
+  width: 100%;
+  background-color: white;
+  border: solid 3px var(--yellow);
+  border-radius: 0.25rem;
+  padding: 0.5rem 1rem;
+  margin-top: 2rem;
+  transform: translate(0, 50%);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+
+.header-input {
+  color: gray;
+  width: 100%;
+  padding-left: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.header-input input {
+  font-size: 1rem;
+  width: 100%;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.header-range {
+  color: gray;
+  font-size: 1rem;
+  width: 100%;
+  padding-left: 1rem;
+  cursor: pointer;
+}
+
+.date {
+  position: absolute;
+  top: 5vh;
+  left: 32.5vh;
+}
+
+.header-btn {
+  background-color: var(--light-blue);
+  border: 0;
+  color: white;
+  padding: 0.5rem;
+  cursor: pointer;
+  margin-right: 1rem;
+}
+
+.header-btn:hover {
+  background-color: var(--lighter-blue);
+}

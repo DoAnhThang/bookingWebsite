@@ -1,0 +1,34 @@
+.navbar-links {
+  margin: auto;
+  max-width: 992px;
+  padding: 0;
+  display: flex;
+  padding-bottom: 3rem;
+  padding-left: 1rem;
+}
+
+.navbar-links li {
+  list-style: none;
+  margin-right: 3rem;
+  font-size: 0.85rem;
+}
+
+.navbar-link {
+  text-decoration: none;
+  color: white;
+  padding: 0.5rem;
+}
+
+.navbar-link:hover {
+  background-color: var(--lighter-blue);
+  border-radius: 0.85rem;
+}
+
+.navbar-link i {
+  margin-right: 0.75rem;
+}
+
+.navbar-link__border {
+  border: solid 1px white;
+  border-radius: 0.85rem;
+}

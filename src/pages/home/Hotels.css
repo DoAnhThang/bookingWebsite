@@ -1,0 +1,40 @@
+.hotel-list__container {
+  margin: 3rem auto;
+  max-width: 992px;
+  padding: 0 1rem;
+}
+
+.hotel-list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.hotel-list img {
+  width: 100%;
+  height: 175px;
+  margin-bottom: 0.75rem;
+}
+
+.hotel-list a {
+  display: block;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.hotel-list p {
+  margin-bottom: 0.75rem;
+}
+
+.rate-score {
+  background-color: var(--dark-blue);
+  color: white;
+  font-weight: bold;
+  font-size: 0.85rem;
+  padding: 0.25rem;
+}
+
+.rate-type {
+  font-size: 0.85rem;
+}

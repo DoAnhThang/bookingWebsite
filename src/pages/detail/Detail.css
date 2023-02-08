@@ -1,0 +1,95 @@
+.detail-container {
+  max-width: 992px;
+  margin: 1.5rem auto 2rem;
+  padding: 0 1rem;
+}
+
+.detail-first {
+  display: flex;
+  justify-content: space-between;
+}
+
+.detail-first h2,
+.detail-first p {
+  margin-bottom: 0.75rem;
+}
+
+.detail__reserve {
+  height: 2.5rem;
+  background-color: var(--light-blue);
+  border: 0;
+  border-radius: 0.3rem;
+  color: white;
+  font-weight: bold;
+  padding: 0 0.5rem;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+.detail__reserve:hover {
+  background-color: var(--lighter-blue);
+}
+
+.detail__address {
+  font-size: 0.8rem;
+}
+
+.detail__distance {
+  color: var(--light-blue);
+  font-weight: 500;
+}
+
+.detail__price {
+  color: green;
+  font-weight: 500;
+}
+
+.detail__photos {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 0.5rem 0.5rem;
+}
+
+.detail__photos img {
+  width: 100%;
+}
+
+.detail-second {
+  display: flex;
+  column-gap: 1rem;
+  margin-top: 2rem;
+}
+
+.detail__9night {
+  background-color: #d0ebff;
+  padding: 1rem;
+}
+
+.detail-second h3 {
+  margin: 1.5rem 0;
+}
+
+.detail__description {
+  font-size: 0.8rem;
+  margin-bottom: 1.5rem;
+  font-weight: 500;
+}
+
+.detail-second h4 {
+  color: gray;
+  margin-bottom: 1.5rem;
+}
+
+.detail__9night-price {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.detail__9night-price span {
+  font-weight: bold;
+}
+
+.detail-second .detail__reserve {
+  width: 14rem;
+}

@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "name": "Dublin",
+    "subText": "123 properties",
+    "image": "./images/city_1.webp"
+  },
+  {
+    "id": 2,
+    "name": "Reno",
+    "subText": "533 properties",
+    "image": "./images/city_2.webp"
+  },
+  {
+    "id": 3,
+    "name": "Austin",
+    "subText": "532 properties",
+    "image": "./images/city_3.webp"
+  }
+]

@@ -1,0 +1,42 @@
+.register-form__container {
+  background-color: var(--dark-blue);
+  width: 100%;
+}
+
+.register-form {
+  color: white;
+  margin: auto;
+  max-width: 992px;
+  padding: 2rem 0 3rem;
+  text-align: center;
+}
+
+.register-form h1 {
+  margin-bottom: 1.5rem;
+}
+
+.register-form p {
+  margin-bottom: 1rem;
+}
+
+.register-form input {
+  height: 3rem;
+  width: 20rem;
+  border: 0;
+  border-radius: 0.25rem;
+  margin-right: 1rem;
+  padding-left: 1rem;
+}
+
+.register-form button {
+  background-color: var(--light-blue);
+  color: white;
+  border: 0;
+  border-radius: 0.25rem;
+  height: 3rem;
+  cursor: pointer;
+}
+
+.register-form button:hover {
+  background-color: var(--lighter-blue);
+}
