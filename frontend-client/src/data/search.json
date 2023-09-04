@@ -1,0 +1,41 @@
+[
+  {
+    "id": 1,
+    "name": "Tower Street Apartments",
+    "distance": "500m",
+    "tag": "Free airport taxi",
+    "type": "Entire studio • 1 bathroom • 21m² 1 full bed",
+    "description": "Studio Apartment with Air conditioning",
+    "free_cancel": true,
+    "price": 112,
+    "rate": 8.9,
+    "rate_text": "Excellent",
+    "image_url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/261707778.jpg?k=56ba0babbcbbfeb3d3e911728831dcbc390ed2cb16c51d88159f82bf751d04c6&o=&hp=1"
+  },
+  {
+    "id": 2,
+    "name": "Comfort Suites Airport",
+    "distance": "200m",
+    "tag": "Free Breakfast",
+    "type": "Entire studio • 2 bathroom • 100m² 2 full bed",
+    "description": "Studio Apartment",
+    "free_cancel": true,
+    "price": 140,
+    "rate": 9.3,
+    "rate_text": "Exceptional",
+    "image_url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/215955381.jpg?k=ff739d1d9e0c8e233f78ee3ced82743ef0355e925df8db7135d83b55a00ca07a&o=&hp=1"
+  },
+  {
+    "id": 3,
+    "name": "Four Seasons Hotel",
+    "distance": "100m",
+    "tag": "Free Parking",
+    "type": "1 bathroom • 51m² 2 full bed",
+    "description": "Hotel in Lisbon",
+    "free_cancel": false,
+    "price": 99,
+    "rate": 8.8,
+    "rate_text": "Excellent",
+    "image_url": "https://www.cn.kayak.com/rimg/himg/f8/3e/f6/ice-33462-67775447-260702.jpg?width=720&height=576&crop=true"
+  }
+]

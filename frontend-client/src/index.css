@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap");
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+/* Utilities */
+.bg-darkBlue {
+  background-color: #003580;
+}
+.bg-cerulean {
+  background-color: #0492c2 !important;
+}
+.bg-zumthor {
+  background-color: #ebf3ff !important;
+}
+.bg-lavender {
+  background-color: #e0e0fa !important;
+}
+.bg-limeGreen {
+  background-color: #32cd32 !important;
+}
+.bg-lightCoral {
+  background-color: #f08080 !important;
+}
+.fs-7 {
+  font-size: 0.8rem !important;
+}
+.cursor-pointer {
+  cursor: pointer;
+}
+.outline-0 {
+  outline: 0;
+}
+.w-fit {
+  width: fit-content;
+}
+button:disabled {
+  cursor: not-allowed;
+  pointer-events: all !important;
+}
+
+/* NavBar */
+.navbar__item a:hover {
+  background: rgb(60, 100, 128);
+  border-radius: 50rem;
+}
+.navbar-brand {
+  font-family: "Ubuntu", "Open Sans", sans-serif;
+}
+
+/* Responsive */
+@media (max-width: 1199px) {
+  .header--form {
+    font-size: small;
+  }
+}
+
+@media (max-width: 991px) {
+  .header--form {
+    transform: translate(0, 12.5%) !important;
+    font-size: medium;
+  }
+  .property-list h5 {
+    font-size: medium;
+  }
+  .property-list p {
+    font-size: small;
+  }
+  .detail--reserve-top {
+    display: none !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .property-list {
+    grid-template-columns: repeat(3, 1fr) !important;
+  }
+  .detail--desc {
+    flex-wrap: wrap !important;
+  }
+  .transactions--item {
+    font-size: small;
+  }
+}
+
+@media (max-width: 575px) {
+  .navbar--logged-in {
+    flex-wrap: wrap;
+  }
+  .property-list {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+  .searched-info {
+    margin-top: 0.5rem !important;
+    margin-bottom: 0.5rem;
+  }
+}

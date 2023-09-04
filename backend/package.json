@@ -1,0 +1,34 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "njs-asm02-fx19838",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server-i": "npm install",
+    "admin-i": "cd .. && cd frontend-admin && npm install",
+    "client-i": "cd .. && cd frontend-client && npm install",
+    "install-all": "concurrently \"npm run server-i\" \"npm run admin-i\" \"npm run client-i\"",
+    "server-s": "nodemon app.js",
+    "admin-s": "cd .. && cd frontend-admin && npm start",
+    "client-s": "cd .. && cd frontend-client && npm start",
+    "start-all": "concurrently \"npm run server-s\" \"npm run admin-s\" \"npm run client-s\""
+  },
+  "author": "thangda",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.3.1",
+    "concurrently": "^8.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.1.4",
+    "express": "^4.18.2",
+    "mongoose": "^7.0.3",
+    "react-bootstrap": "^2.8.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  },
+  "engines": {
+    "node": ">=14"
+  }
+}

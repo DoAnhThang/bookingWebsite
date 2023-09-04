@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "name": "Ha Noi",
+    "subText": "3",
+    "image": "https://bcp.cdnchinhphu.vn/Uploaded/nguyenthikimlien/2018_01_23/cam-nang-du-lich-ha-noi-mytour-1.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Ho Chi Minh",
+    "subText": "1",
+    "image": "https://imageio.forbes.com/specials-images/imageserve/1095880968/Traffic-on-the-road-at-front-of-Ho-Chi-Minh-City-Hall-in-Ho-Chi-Minh-City-Capital-of/960x0.jpg?format=jpg&width=960"
+  },
+  {
+    "id": 3,
+    "name": "Da Nang",
+    "subText": "0",
+    "image": "http://hfs2.duytan.edu.vn/ndJK184IUkdfn23df675/coms/images/danangcity-636507687209005187.jpg"
+  }
+]

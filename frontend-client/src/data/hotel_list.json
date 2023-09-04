@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "name": "HANOI ROYAL PALACE HOTEL 2",
+    "city": "Ha Noi",
+    "price": 150,
+    "image_url": "https://pix8.agoda.net/hotelImages/14501735/-1/25517748837ba92fcb96c176f627d498.jpg?ce=0&s=1024x"
+  },
+  {
+    "id": 2,
+    "name": "La Sinfonia del Rey Hotel and Spa",
+    "city": "Ha Noi",
+    "price": 600,
+    "image_url": "https://pix8.agoda.net/hotelImages/8315970/-1/95c472f9e927d2f62293cb721818e6ad.jpg?ca=15&ce=1&s=1024x"
+  },
+  {
+    "id": 3,
+    "name": "May De Ville Legend Hotel & Spa",
+    "city": "Ha Noi",
+    "price": 325,
+    "image_url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/175192930.jpg?k=0eb9520a6812cb3e5475598b65b34f4d3114cf895791b2c5469817eff08bd9a0&o=&hp=1"
+  },
+  {
+    "id": 4,
+    "name": "Alagon Saigon Hotel & Spa",
+    "city": "Ho Chi Minh",
+    "price": 350,
+    "image_url": "https://q-xx.bstatic.com/xdata/images/hotel/840x460/342349110.jpg?k=5d9ebde5a24c290fd34ae061f3c456d0978c72b1e0e9a52f4e108be8983f24f1&o="
+  }
+]
